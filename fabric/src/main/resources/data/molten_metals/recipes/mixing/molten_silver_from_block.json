@@ -1,22 +1,24 @@
 {
   "fabric:load_conditions": [
     {
-      "condition": "fabric:all_mods_loaded",
+      "condition": "fabric:any_mod_loaded",
       "values": [
-        "galosphere"
+        "caverns_and_chasms",
+        "galosphere",
+        "oreganized"
       ]
     }
   ],
   "type": "create:mixing",
   "ingredients": [
     {
-      "tag": "molten_metals:meltable_silver"
+      "tag": "molten_metals:meltable_silver_blocks"
     }
   ],
   "results": [
     {
       "fluid": "molten_metals:molten_silver",
-      "amount": 9000
+      "amount": 81000
     }
   ],
   "heatRequirement": "heated"

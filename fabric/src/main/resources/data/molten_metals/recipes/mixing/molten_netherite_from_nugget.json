@@ -1,8 +1,10 @@
 {
   "fabric:load_conditions": [
     {
-      "condition": "fabric:all_mods_loaded",
+      "condition": "fabric:any_mod_loaded",
       "values": [
+        "caverns_and_chasms",
+        "createdeco",
         "oreganized"
       ]
     }
@@ -10,12 +12,12 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "tag": "molten_metals:meltable_silver_nuggets"
+      "tag": "molten_metals:meltable_netherite_nuggets"
     }
   ],
   "results": [
     {
-      "fluid": "molten_metals:molten_silver",
+      "fluid": "molten_metals:molten_netherite",
       "amount": 1000
     }
   ],
